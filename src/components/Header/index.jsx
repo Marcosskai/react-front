@@ -1,9 +1,10 @@
-import "./Header.css"
+import './Header.css';
+import IgniteLogo from '../Header/ignite-logo.svg';
 
 export function Header() {
-    return(
-        <div class="header">
-            <strong>Ignite Feed</strong>
+    return (
+        <div className="header">
+            <img src={IgniteLogo} alt="Ignite Logo" />
         </div>
-    )
+    );
 }
