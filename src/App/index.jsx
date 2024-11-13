@@ -1,4 +1,5 @@
 import { Header } from "../components/Header"
+import { Sidebar } from "../components/Sidebar"
 import { Post } from "../Post"
 import './App.css'
 
@@ -10,9 +11,9 @@ export function App() {
       <Header/>
 
       <div className="wrapper">
-        <aside>
-          sidebar
-        </aside>
+        
+        <Sidebar/>
+
         <main>
           <Post 
             author="Diego Fernandes"
