@@ -1,5 +1,6 @@
 import './Sidebar.css'
 import Flame from '../../assets/Flame.png';
+import { PencilLine } from 'phosphor-react'
 
 export function Sidebar() {
     return(
@@ -14,11 +15,12 @@ export function Sidebar() {
                 <img 
                     src={Flame} />
                 <strong>Matheus Ferreira</strong>
-                <span>Editor - After Effects</span>
+                <span>Editor - Adobe After Effects</span>
             </div>
 
             <footer>
                 <a href="#">
+                    <PencilLine size={20}/>
                     Editar seu perfil
                 </a>
             </footer>
