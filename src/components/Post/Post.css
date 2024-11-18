@@ -99,9 +99,20 @@
     cursor: pointer;
 
     transition: background-color 0.1s;
+
 }
 
 .commentForm button:hover {
     background: var(--green-500);
     color: var(--white);
+}
+
+.commentForm:focus-within footer {
+    visibility: visible;
+    max-height: none;
+}
+
+.commentForm footer {
+    visibility: hidden;
+    max-height: 0;
 }
