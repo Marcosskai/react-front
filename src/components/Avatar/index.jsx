@@ -1,10 +1,11 @@
-import "./Avatar.css"
+import "./Avatar.css";
 
-export function Avatar(props) {
-    return(
-            <img 
-                className="avatar"          
-                src={props.src}
+export function Avatar({ hasBorder, src }) {
+    return (
+        <img
+            className={hasBorder ? "avatarWithBorder" : "avatar"}
+            src={src}
+            alt="Avatar"
         />
     );
 }

@@ -10,7 +10,7 @@ export function Post() {
         <article className="post">
             <header>
                 <div className="author">
-                    <Avatar className="avatar" src={Flame} />
+                    <Avatar hasBorder={false} src={Flame} />
                     <div className="authorInfo">
                         <strong>Matheus Ferreira</strong>
                         <span>Editor - Adobe After Effects</span>
