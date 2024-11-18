@@ -1,5 +1,6 @@
 import "./Post.css"
 import Flame from '../../assets/Flame.png';
+import { Comment } from "../Comment";
 
 
 export function Post() {
@@ -38,6 +39,11 @@ export function Post() {
                     <button type="submit">Publicar</button>
                 </footer>
             </form>
+            <div className="commentList">
+                <Comment/>
+                <Comment/>
+                <Comment/>
+            </div>
         </article>
     )
 }
