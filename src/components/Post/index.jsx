@@ -40,7 +40,6 @@ export function Post() {
                     <button type="submit">Publicar</button>
                 </footer>
             </form>
-
             <div className="commentList">
                 <Comment/>
                 <Comment/>
