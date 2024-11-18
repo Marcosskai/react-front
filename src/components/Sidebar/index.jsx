@@ -1,6 +1,7 @@
 import './Sidebar.css'
 import Flame from '../../assets/Flame.png';
 import { PencilLine } from 'phosphor-react'
+import { Avatar } from '../Avatar';
 
 export function Sidebar() {
     return(
@@ -12,7 +13,7 @@ export function Sidebar() {
              />
             <div 
                 className='profile'>
-                <img 
+                <Avatar 
                     src={Flame} />
                 <strong>Matheus Ferreira</strong>
                 <span>Editor - Adobe After Effects</span>

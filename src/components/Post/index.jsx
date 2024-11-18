@@ -1,5 +1,7 @@
 import "./Post.css"
 import Flame from '../../assets/Flame.png';
+import { Avatar } from "../Avatar";
+import { Comment } from "../Comment";
 
 
 export function Post() {
@@ -8,7 +10,7 @@ export function Post() {
         <article className="post">
             <header>
                 <div className="author">
-                    <img className="avatar" src={Flame} />
+                    <Avatar className="avatar" src={Flame} />
                     <div className="authorInfo">
                         <strong>Matheus Ferreira</strong>
                         <span>Editor - Adobe After Effects</span>
@@ -38,6 +40,12 @@ export function Post() {
                     <button type="submit">Publicar</button>
                 </footer>
             </form>
+
+            <div className="commentList">
+                <Comment/>
+                <Comment/>
+                <Comment/>
+            </div>
         </article>
     )
 }
