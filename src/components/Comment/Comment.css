@@ -53,11 +53,13 @@
 }
 .commentBox footer {
     margin-top: 1rem;
+    display: flex;
 }
 .commentBox footer button {
     background: transparent;
     border: 0;
     color: var(--gray-400);
+    line-height: 0;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -73,4 +75,8 @@
 .commentBox footer button span::before{
     content: "\2022";
     padding: 0 0.25rem;
+}
+
+.commentBox footer span {
+    gap: 1rem;
 }

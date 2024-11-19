@@ -6,7 +6,7 @@ import { Avatar } from '../Avatar'
 export function Comment(){
     return(
         <div className='comment'>
-            <Avatar hasBorder={true} src={womanIcon}/>
+            <Avatar hasBorder={false} src={womanIcon}/>
             <div className='commentBox'>
                 <div className='commentContent'>
                     <header>
@@ -23,8 +23,8 @@ export function Comment(){
                 <footer>
                     <button>
                         <ThumbsUp/>
-                        Aplaudir <span>20</span>
                     </button>
+                    <span>20</span>
                 </footer>
             </div>
         </div>
