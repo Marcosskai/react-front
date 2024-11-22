@@ -54,6 +54,7 @@
 .commentBox footer {
     margin-top: 1rem;
     display: flex;
+    align-items: center;
 }
 .commentBox footer button {
     background: transparent;
